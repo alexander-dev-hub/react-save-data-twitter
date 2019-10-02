@@ -1,26 +1,22 @@
+
 import React from 'react';
-import logo from './logo.svg';
+
+import Tweet from './components/Tweet/Tweet';
+import tweets from './assets/data/tweets';
 import './App.css';
 
-function App() {
+const linkProps = { target: '_blank' };
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="TweetPage" style={{'width': '590px', 'margin': '0 auto'}}>
+      <div className="tweet-stream" style={{'width': '100%'}}>
+        {tweets.map((t, i) => (
+          <Tweet autoPlay={true} data={t} key={i} linkProps={linkProps} />
+        ))}
+      </div>
     </div>
   );
-}
+};
 
 export default App;
