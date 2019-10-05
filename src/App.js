@@ -24,7 +24,7 @@ class App extends Component {
   fetchData(dataSaverEnabled) {
     const myHeaders = new Headers({
       'Content-Type': 'application/json',
-      'data-saver': dataSaverEnabled
+      'save-data': 'on'
     });
 
     fetch("/datasaver", {headers: myHeaders}).then(response => response.json())
@@ -49,7 +49,7 @@ class App extends Component {
   render() {
     const { dataSaverEnabled, imagePath } = this.state;
     return (
-      <div className="TweetPage" style={{'width': '590px', 'margin': '0 auto'}}>
+      <div className="TweetPage" style={{'margin': '0 auto'}}>
         <Nav 
           checked={dataSaverEnabled}
           onChange={this.toggleDataSaverHandler}/>
