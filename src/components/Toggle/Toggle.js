@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Toggle from 'react-toggle';
 
-import './style.css';
+import './styles.css';
 
 class ToggleSwitch extends Component {
   render () {
