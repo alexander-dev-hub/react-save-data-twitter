@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-import './style.css';
+import './styles.css';
 
 class Checkbox extends Component {
   render () {
