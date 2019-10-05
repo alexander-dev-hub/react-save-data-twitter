@@ -1,3 +1,4 @@
+
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
@@ -5,11 +6,7 @@ const cors = require('cors');
 const app = express();
 app.disable('x-powered-by');
 app.use(cors());
-
 app.use(express.static(path.join(__dirname, 'public')));
-app.set('views', __dirname + '/public');
-app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'html');
 
 app.get('/ping', (req, res) => {
   res.send('pong');
