@@ -26,11 +26,67 @@
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
 .tweet-stream {
   border: 1px solid rgb(225, 232, 237);
   border-radius: 5px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  border-bottom-width: 0;
+  position: sticky;
+  top: 0;
+  /* display: flex; */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.icon {
+  float: right;
+  fill:rgb(29, 161, 242);
+  flex-shrink:0;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size:15px;
+  font-stretch:100%;
+  font-style:normal;
+  font-variant-caps:normal;
+  font-variant-east-asian:normal;
+  font-variant-ligatures:normal;
+  font-variant-numeric:normal;
+  font-weight:700;
+  height:22.5px;
+  line-height:15px;
+  max-width:100%;
+  overflow-wrap:break-word;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  pointer-events:auto;
+  text-align:center;
+  text-size-adjust:100%;
+  user-select:none;
+  white-space:pre-wrap;
+  width:22.5px;
+  -webkit-box-direction:normal;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  padding: 15px;
+  color: rgba(29,161,242);
+  cursor: pointer;
+  display: block;
+  /* margin-right: calc(5px + ((-1 * (41px - 1.5em)) / 2)); */
+
 }
