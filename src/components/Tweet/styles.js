@@ -2,10 +2,8 @@ export default {
   'tweet': {
     'backgroundColor': '#ffffff',
     'minHeight': '51px',
-    'maxWidth': '588px',
     'borderBottom': '1px solid #e6ecf0',
     'color': '#14171a',
-    'fontFamily': '"Helvetica Neue", "Helvetica", "Arial", "sans-serif"',
     'fontSize': '14px',
     'lineHeight': '20px',
     'listStyleImage': 'none',

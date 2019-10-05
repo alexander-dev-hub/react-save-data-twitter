@@ -39,14 +39,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -74,12 +74,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -101,7 +101,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -113,8 +113,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -130,11 +130,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -170,11 +170,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -201,7 +201,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -214,14 +214,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -249,12 +249,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -327,14 +327,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -362,12 +362,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -389,7 +389,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -401,8 +401,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -418,11 +418,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -458,11 +458,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -489,7 +489,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -502,14 +502,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -537,12 +537,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -615,14 +615,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -650,12 +650,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -677,7 +677,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -689,8 +689,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -706,11 +706,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -746,11 +746,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -777,7 +777,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -790,14 +790,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -825,12 +825,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -903,14 +903,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -938,12 +938,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -965,7 +965,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -977,8 +977,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -994,11 +994,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1034,11 +1034,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1065,7 +1065,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1078,14 +1078,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -1113,12 +1113,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -1191,14 +1191,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -1226,12 +1226,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -1253,7 +1253,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -1265,8 +1265,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -1282,11 +1282,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1322,11 +1322,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1353,7 +1353,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1366,14 +1366,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -1401,12 +1401,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -1479,14 +1479,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -1514,12 +1514,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -1541,7 +1541,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -1553,8 +1553,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -1570,11 +1570,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1610,11 +1610,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1641,7 +1641,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1654,14 +1654,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -1689,12 +1689,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -1767,14 +1767,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -1802,12 +1802,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -1829,7 +1829,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "truncated": false,
         "display_text_range": [
             0,
@@ -1841,8 +1841,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -1858,11 +1858,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1898,11 +1898,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -1929,7 +1929,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -1942,14 +1942,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -1977,12 +1977,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -2055,14 +2055,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -2090,12 +2090,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -2117,7 +2117,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -2129,8 +2129,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -2146,11 +2146,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -2186,11 +2186,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -2217,7 +2217,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -2230,14 +2230,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -2265,12 +2265,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -2343,14 +2343,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -2378,12 +2378,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -2405,7 +2405,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -2417,8 +2417,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -2434,11 +2434,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -2474,11 +2474,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -2505,7 +2505,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -2518,14 +2518,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -2553,12 +2553,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -2631,14 +2631,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -2666,12 +2666,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -2693,7 +2693,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -2705,8 +2705,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -2722,11 +2722,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -2762,11 +2762,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -2793,7 +2793,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -2806,14 +2806,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -2841,12 +2841,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -2919,14 +2919,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -2954,12 +2954,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -2981,7 +2981,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -2993,8 +2993,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -3010,11 +3010,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -3050,11 +3050,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -3081,7 +3081,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -3094,14 +3094,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -3129,12 +3129,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",
@@ -3207,14 +3207,14 @@
         "screen_name": "SA",
         "location": "New York, NY",
         "description": "Official account of #SA. Get latest information on the sa. Follow us on Instagram: SAS. #GlobalGoals #StandUp4HumanRights",
-        "url": "https://t.co/kgJqUNDMpys",
+        "url": "",
         "entities": {
             "url": {
                 "urls": [
                     {
-                        "url": "https://t.co/kgJqUNDMpys",
-                        "expanded_url": "http://www.sa.org",
-                        "display_url": "sa.org",
+                        "url": "",
+                        "expanded_url": "",
+                        "display_url": "",
                         "indices": [
                             0,
                             23
@@ -3242,12 +3242,12 @@
         "is_translator": false,
         "is_translation_enabled": false,
         "profile_background_color": "0197D6",
-        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
-        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/765681180/1001e289be48bdb34f8e07948b5f2a7a.jpeg",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/950749155575541760/MZoiVs3G_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14159148/1515511655",
+        "profile_image_url": "",
+        "profile_image_url_https": "",
+        "profile_banner_url": "",
         "profile_link_color": "3B94D9",
         "profile_sidebar_border_color": "FFFFFF",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -3269,7 +3269,7 @@
         "created_at": "Mon Jan 15 22:09:12 +0000 2018",
         "id": 953026304613474304,
         "id_str": "953026304613474304",
-        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. https://t.co/52PVX8xtVus https://t.co/EZSRj7Gq86s",
+        "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  s",
         "truncated": false,
         "display_text_range": [
             0,
@@ -3281,8 +3281,8 @@
             "user_mentions": [],
             "urls": [
                 {
-                    "url": "https://t.co/52PVX8xtVus",
-                    "expanded_url": "http://bit.ly/2zcNBCXs",
+                    "url": "",
+                    "expanded_url": "",
                     "display_url": "bit.ly/2zcNBCXs",
                     "indices": [
                         194,
@@ -3298,11 +3298,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/saPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -3338,11 +3338,11 @@
                         218,
                         241
                     ],
-                    "media_url": "http://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/DTnUAcjUMAAEse5.jpg",
-                    "url": "https://t.co/EZSRj7Gq86",
-                    "display_url": "pic.twitter.com/EZSRj7Gq86",
-                    "expanded_url": "https://twitter.com/SAPeacekeeping/status/953026304613474304/photo/1",
+                    "media_url": "",
+                    "media_url_https": "",
+                    "url": "",
+                    "display_url": "",
+                    "expanded_url": "",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -3369,7 +3369,7 @@
                 }
             ]
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://example.com\" rel=\"nofollow\">Twitter Web Client</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
@@ -3382,14 +3382,14 @@
             "screen_name": "SAPeacekeeping",
             "location": "New York, NY",
             "description": "@SA Department of Peacekeeping Operations - Investing in peace around the world. Follow the Under-Secretary-General: @Lacroix_UN",
-            "url": "https://t.co/cXscNcD7i4s",
+            "url": "",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/cXscNcD7i4s",
-                            "expanded_url": "http://peacekeeping.sa.org",
-                            "display_url": "peacekeeping.sa.org",
+                            "url": "",
+                            "expanded_url": "",
+                            "display_url": "",
                             "indices": [
                                 0,
                                 23
@@ -3417,12 +3417,12 @@
             "is_translator": false,
             "is_translation_enabled": false,
             "profile_background_color": "FFFFFF",
-            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
-            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/522862204987514882/HupZZX4x.png",
+            "profile_background_image_url": "",
+            "profile_background_image_url_https": "",
             "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/808745962130784256/cXjNkzfu_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/46003622/1511140288",
+            "profile_image_url": "",
+            "profile_image_url_https": "",
+            "profile_banner_url": "",
             "profile_link_color": "0076BF",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "AAB300",

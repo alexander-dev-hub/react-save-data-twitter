@@ -1,12 +1,12 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import twemoji from 'twemoji';
 import twitterText from 'twitter-text';
 
 import styles from './styles';
 
-class Text extends React.Component {
+class Text extends Component {
   render () {
     let {data} = this.props;
     let {text, entities, extended_entities} = data;
@@ -15,7 +15,7 @@ class Text extends React.Component {
     if (entities && entities.media) {
       entities.media.forEach( e => {
         text = text.replace(e.url, '');
-      });
+      })
     }
 
     // remove any quote links
@@ -24,7 +24,7 @@ class Text extends React.Component {
         if (u.expanded_url.indexOf('/status/') > -1) {
           text = text.replace(u.url, '');
         }
-      });
+      })
     }
 
     // replace + style links and mentions

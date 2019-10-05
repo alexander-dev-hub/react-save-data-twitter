@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Header from './Header';
@@ -8,15 +8,15 @@ import Footer from './Footer';
 import styles from './styles';
 import {cloneDeep} from './utils';
 
-class Modal extends React.Component {
+class Modal extends Component {
   close () {
     this.context.closeModal()
   };
 
   render () {
-    if (typeof window === "undefined") return null;
+    if (typeof window === 'undefined') return null;
 
-    let {data, modalIndex} = this.props;
+    let {data, modalIndex, imagePathCriteria} = this.props;
     // use retweet as data if its a RT
     if (data.retweeted_status) {
       data = data.retweeted_status;
@@ -99,21 +99,21 @@ class Modal extends React.Component {
     }
 
     return (
-      <div className="Modal" style={styles.Modal}>
+      <div className='Modal' style={styles.Modal}>
         <span style={{'height': '100%', 'display': 'inline-block', 'verticalAlign': 'middle'}} />
-        <div className="ModalClose" style={styles.ModalClose} onClick={this.close.bind(this)} />
-        <div className="Modal-wrap" style={modalWrap}>
-          <div className="closeModal" style={closeModalStyle}  onClick={this.close.bind(this)}>
-            <svg fill="#657786" style={{'margin': '10px'}} height="28" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
-              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
-              <path d="M0 0h24v24H0z" fill="none"/>
+        <div className='ModalClose' style={styles.ModalClose} onClick={this.close.bind(this)} />
+        <div className='Modal-wrap' style={modalWrap}>
+          <div className='closeModal' style={closeModalStyle}  onClick={this.close.bind(this)}>
+            <svg fill='#657786' style={{'margin': '10px'}} height='28' viewBox='0 0 24 24' width='28' xmlns='http://www.w3.org/2000/svg'>
+              <path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/>
+              <path d='M0 0h24v24H0z' fill='none'/>
             </svg>
           </div>
-          <div className="tweet" style={tweetStyle}>
-            <div className="media-wrap" style={imgWrapStyle}>
-              <img alt="" src={media.media_url} style={imgStyle} />
+          <div className='tweet' style={tweetStyle}>
+            <div className='media-wrap' style={imgWrapStyle}>
+              <img alt='' className='avatar' src={imagePathCriteria} style={imgStyle} />
             </div>
-            <div className="content" style={contentStyle}>
+            <div className='content' style={contentStyle}>
               <Header data={data} />
               <Text data={data} />
               <Footer data={data} />

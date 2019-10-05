@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Context from './Context';
@@ -11,7 +11,7 @@ import Quote from './Quote';
 import Footer from './Footer';
 import styles from './styles';
 
-class Tweet extends React.Component {
+class Tweet extends Component {
   constructor (props) {
     super(props);
     this.toggleModal = this.toggleModal.bind(this);
@@ -44,7 +44,7 @@ class Tweet extends React.Component {
 
   render () {
     const {modalActive, modalIndex} = this.state;
-    let {data, linkProps, imagePath} = this.props, isRT = false;
+    let {data, linkProps, imagePathCriteria} = this.props, isRT = false;
     let MediaComponent = null, QuoteComponent = null;
     
     //Support for extended tweets
@@ -103,12 +103,12 @@ class Tweet extends React.Component {
 
     // use Media component if media entities exist
     if (data.entities && data.entities.media) {
-      MediaComponent = <Media imagePath={imagePath} autoPlay={this.props.autoPlay} media={data.entities.media} />;
+      MediaComponent = <Media imagePathCriteria={imagePathCriteria} autoPlay={this.props.autoPlay} media={data.entities.media} />;
     }
 
     // extended_entities override, these are multi images, videos, gifs
     if (data.extended_entities && data.extended_entities.media) {
-      MediaComponent = <Media imagePath={imagePath} autoPlay={this.props.autoPlay} media={data.extended_entities.media} />;
+      MediaComponent = <Media imagePathCriteria={imagePathCriteria} autoPlay={this.props.autoPlay} media={data.extended_entities.media} />;
     }
 
     // use Quote component if quoted status exists
@@ -117,18 +117,18 @@ class Tweet extends React.Component {
     }
 
     return (
-      <div className="tweet" style={styles.tweet}>
+      <div className='tweet' style={styles.tweet}>
         {isRT ? <Context {... this.props} /> : null}
-        <div className="content" style={styles.content}>
-          <Header data={data} linkProps={linkProps} imagePath={imagePath}/>
-          <a style={styles.link} href={`https://twitter.com/${data.user.screen_name}/status/${data.id_str}`} {...linkProps}>
+        <div className='content' style={styles.content}>
+          <Header data={data} linkProps={linkProps} imagePathCriteria={imagePathCriteria}/>
+          <a style={styles.link} href={`https://example.com/${data.user.screen_name}/status/${data.id_str}`} {...linkProps}>
             <Text data={data} />
           </a>
           {MediaComponent}
           {QuoteComponent}
           <Footer data={data} linkProps={linkProps} />
         </div>
-        {modalActive ? <Modal data={data} modalIndex={modalIndex} /> : null}
+        {modalActive ? <Modal data={data} modalIndex={modalIndex} imagePathCriteria={imagePathCriteria}/> : null}
       </div>
     );
   }

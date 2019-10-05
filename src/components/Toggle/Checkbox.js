@@ -1,21 +1,20 @@
 
 import React, { Component } from 'react';
-import Toggle from 'react-toggle';
 
 import './style.css';
 
-class ToggleSwitch extends Component {
+class Checkbox extends Component {
   render () {
     const { ...rest } = this.props;
     return (
       <div className='switch-with-label'>
         <label>
-          Save Data
+          <input type='checkbox' {...rest} />
+          Testing Save-Data on Client 
         </label>
-        <Toggle { ...rest } />
       </div>
     );
   };
 }
 
-export default ToggleSwitch;
+export default Checkbox;

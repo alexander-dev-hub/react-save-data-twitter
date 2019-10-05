@@ -12,16 +12,15 @@ app.get('/ping', (req, res) => {
   res.send('pong');
 });
 
-app.get('/datasaver', (req, res) => {
-  const saveData = req.headers['data-saver'];
-  let imagePath = 'heavy';
-  if( saveData === 'true')
-    imagePath = 'light';
+app.get('/save-data', (req, res) => {
+  const saveData = req.headers['save-data'];
+  let imagePathCriteria;
+  if( saveData === 'on')
+    imagePathCriteria = 'light';
   else
-    imagePath = 'heavy';
+    imagePathCriteria = 'heavy';
 
-  res.header('data-saver', saveData);
-  res.json({imagePath});
+  res.status(200).json({imagePathCriteria});
 });
 
 app.get('*', (req, res) => {

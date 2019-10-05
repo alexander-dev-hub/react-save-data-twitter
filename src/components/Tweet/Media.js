@@ -1,11 +1,11 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import Photos from './Photos';
 import Video from './Video';
 
-class Media extends React.Component {
+class Media extends Component {
   render () {
     switch (this.props.media[0].type) {
       case 'photo':

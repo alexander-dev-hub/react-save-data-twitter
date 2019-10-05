@@ -1,11 +1,11 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import VideoJS from 'react-video-wrapper';
 
 import styles from './styles';
 
-class Video extends React.Component {
+class Video extends Component {
   render () {
     let {media, gif, autoPlay} = this.props, videoSrc = '';
     media[0].video_info.variants.forEach( v => {
@@ -29,10 +29,10 @@ class Video extends React.Component {
     }
 
     return (
-      <div className="AdaptiveMedia" style={styles.AdaptiveMedia}>
+      <div className='AdaptiveMedia' style={styles.AdaptiveMedia}>
         {VideoComponent}
         {gif ?
-          <div className="AdaptiveMedia-badge" style={styles.AdaptiveMediaBadge}>
+          <div className='AdaptiveMedia-badge' style={styles.AdaptiveMediaBadge}>
             GIF
           </div> : null}
       </div>
