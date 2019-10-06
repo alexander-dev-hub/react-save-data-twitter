@@ -13,17 +13,6 @@
   margin-top: 8px;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.photo img {
-  width: 100%;
-  height: auto;
-}
-
 .photo .btn {
   position: absolute;
   top: 50%;

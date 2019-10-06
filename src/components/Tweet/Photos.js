@@ -52,7 +52,6 @@ class Photos extends React.Component {
         // check if image is taller than maxHeight, if so
         // center it with a negative top value
         const maxHeight = parseInt(mediaStyle.maxHeight.replace('px', ''));
-
         if (mediaHeight > maxHeight) {
           photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
         }
@@ -73,7 +72,6 @@ class Photos extends React.Component {
 
         const ratio = (100 / mediaWidth) * (508 /2);
         mediaHeight = mediaHeight * (ratio / 100);
-
         if (mediaHeight > maxHeight) {
           photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
           photoStyle.width = '100%';
@@ -96,10 +94,8 @@ class Photos extends React.Component {
           containStyle.height = '337px';
           containStyle.float = 'left';
           const firstWrapWidth = 508 * (2 / 3);
-
           const ratio = (100 / mediaHeight) * 337;
           mediaWidth = mediaWidth * (ratio / 100);
-
           const newRatio = (100 / m.sizes.medium.w) * firstWrapWidth;
           mediaHeight = mediaHeight * (newRatio / 100);
 
@@ -118,7 +114,6 @@ class Photos extends React.Component {
           mediaWidth = m.sizes.medium.w;
           const maxHeight = 337 / 2;
           const maxWidth = 508 * 1/3;
-
           const ratio = (100 / mediaWidth) * maxWidth;
           mediaHeight = mediaHeight * (ratio / 100);
 
@@ -150,10 +145,8 @@ class Photos extends React.Component {
           containStyle.float = 'left';
           const firstWrapWidth = 508 * 0.75;
           const maxHeight = 380;
-
           const ratio = (100 / mediaHeight) * 380;
           mediaWidth = mediaWidth * (ratio / 100);
-
           const newRatio = (100 / m.sizes.medium.w) * firstWrapWidth;
           mediaHeight = mediaHeight * (newRatio / 100);
 
