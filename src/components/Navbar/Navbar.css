@@ -1,5 +1,4 @@
 
-/* ray test touch < */
 .navbar {
   display: flex;
   flex-direction: column;
@@ -32,4 +31,3 @@
     flex-direction: row;
   }
 }
-/* ray test touch > */
