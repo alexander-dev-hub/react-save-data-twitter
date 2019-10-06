@@ -235,5 +235,9 @@ export default {
     'verticalAlign': 'middle',
     'position': 'relative',
     'zIndex': 20
+  },
+  'prettyLink': {
+    'textDecoration': 'none',
+    'color': '#657786'
   }
 }

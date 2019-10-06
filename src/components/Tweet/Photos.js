@@ -11,7 +11,8 @@ class Photos extends React.Component {
   };
 
   render () {
-    let {media} = this.props;
+    // MEMO: tweak
+    let {media, imagePath} = this.props;
 
     let mediaElements = [], mediaStyle = cloneDeep(styles.AdaptiveMedia);
     if (media.length === 2) mediaStyle.height = '253px';
@@ -183,7 +184,8 @@ class Photos extends React.Component {
       }
       mediaElements.push(
         <div onClick={this.onClick.bind(this, i)} className="AdaptiveMedia-photoContainer" style={containStyle} key={i}>
-          <img alt="" src={m.media_url} style={photoStyle} />
+          {/* MEMO: tweak */}
+          <img alt="" src={imagePath} style={photoStyle} />
         </div>
       );
     })

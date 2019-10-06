@@ -44,7 +44,8 @@ class Tweet extends React.Component {
 
   render () {
     const {modalActive, modalIndex} = this.state;
-    let {data, linkProps} = this.props, isRT = false;
+    // MEMO: tweak
+    let {data, linkProps, imagePath} = this.props, isRT = false;
     let MediaComponent = null, QuoteComponent = null;
     
     //Support for extended tweets
@@ -103,12 +104,14 @@ class Tweet extends React.Component {
 
     // use Media component if media entities exist
     if (data.entities && data.entities.media) {
-      MediaComponent = <Media  autoPlay={this.props.autoPlay} media={data.entities.media} />;
+      // MEMO: tweak
+      MediaComponent = <Media imagePath={imagePath} autoPlay={this.props.autoPlay} media={data.entities.media} />;
     }
 
     // extended_entities override, these are multi images, videos, gifs
     if (data.extended_entities && data.extended_entities.media) {
-      MediaComponent = <Media autoPlay={this.props.autoPlay} media={data.extended_entities.media} />;
+      // MEMO: tweak
+      MediaComponent = <Media imagePath={imagePath} autoPlay={this.props.autoPlay} media={data.extended_entities.media} />;
     }
 
     // use Quote component if quoted status exists
@@ -120,7 +123,8 @@ class Tweet extends React.Component {
       <div className="tweet" style={styles.tweet}>
         {isRT ? <Context {... this.props} /> : null}
         <div className="content" style={styles.content}>
-          <Header data={data} linkProps={linkProps} />
+          {/* MEMO: tweak */}
+          <Header data={data} linkProps={linkProps} imagePath={imagePath} />
           <a style={styles.link} href={`https://twitter.com/${data.user.screen_name}/status/${data.id_str}`} {...linkProps}>
             <Text data={data} />
           </a>
@@ -128,7 +132,8 @@ class Tweet extends React.Component {
           {QuoteComponent}
           <Footer data={data} linkProps={linkProps} />
         </div>
-        {modalActive ? <Modal data={data} modalIndex={modalIndex} /> : null}
+        {/* MEMO: tweak */}
+        {modalActive ? <Modal data={data} modalIndex={modalIndex} imagePath={imagePath} /> : null}
       </div>
     );
   }

@@ -16,7 +16,8 @@ class Modal extends React.Component {
   render () {
     if (typeof window === "undefined") return null;
 
-    let {data, modalIndex} = this.props;
+    // MEMO: tweak
+    let {data, modalIndex, imagePath} = this.props;
     // use retweet as data if its a RT
     if (data.retweeted_status) {
       data = data.retweeted_status;
@@ -111,7 +112,8 @@ class Modal extends React.Component {
           </div>
           <div className="tweet" style={tweetStyle}>
             <div className="media-wrap" style={imgWrapStyle}>
-              <img alt="" src={media.media_url} style={imgStyle} />
+              {/* MEMO: tweak */}
+              <img alt="" src={imagePath} style={imgStyle} />
             </div>
             <div className="content" style={contentStyle}>
               <Header data={data} />
