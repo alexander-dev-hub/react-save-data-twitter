@@ -4,15 +4,26 @@ import PropTypes from 'prop-types';
 
 import styles from './styles';
 import {cloneDeep} from './utils';
+import { IMAGE_TYPE } from '../../config';
 
 class Photos extends React.Component {
-  onClick (idx) {
-    this.context.toggleModal(idx);
+  constructor(props) {
+    super(props);
+    this.state = {
+      imagePath: this.props.imagePath
+    };
+  };
+
+  loadImageHandler = () => {
+    const { imagePath } = this.props;
+    const newImagePath = imagePath.replace(IMAGE_TYPE.LIGHT, IMAGE_TYPE.HEAVY);
+    this.setState({imagePath: newImagePath});
   };
 
   render () {
     // MEMO: tweak
-    let {media, imagePath} = this.props;
+    let { media } = this.props;
+    const { imagePath } = this.state;
 
     let mediaElements = [], mediaStyle = cloneDeep(styles.AdaptiveMedia);
     if (media.length === 2) mediaStyle.height = '253px';
@@ -20,7 +31,7 @@ class Photos extends React.Component {
     if (media.length === 4) mediaStyle.height = '380px';
 
     // start media loop
-    media.forEach( (m, i) => {
+    media.forEach((m, i) => {
       // set initial sizes / styles
       let containStyle = {'width': '100%', 'position': 'relative', 'overflow': 'hidden'};
       let photoStyle = {'width': '100%', 'position': 'relative', 'verticalAlign': 'bottom'};
@@ -146,7 +157,6 @@ class Photos extends React.Component {
           const newRatio = (100 / m.sizes.medium.w) * firstWrapWidth;
           mediaHeight = mediaHeight * (newRatio / 100);
 
-
           if (mediaHeight > maxHeight) {
             photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
           }
@@ -183,9 +193,16 @@ class Photos extends React.Component {
         }
       }
       mediaElements.push(
-        <div onClick={this.onClick.bind(this, i)} className="AdaptiveMedia-photoContainer" style={containStyle} key={i}>
-          {/* MEMO: tweak */}
-          <img alt="" src={imagePath} style={photoStyle} />
+        <div className="AdaptiveMedia-photoContainer" style={containStyle} key={i}>
+          {imagePath.includes(IMAGE_TYPE.LIGHT) ?
+            <div className="photo">
+              <img alt='img' src={imagePath} style={photoStyle} />
+              <button className="btn"onClick={this.loadImageHandler}>Load Image</button>
+            </div> :
+            <div className="photo">
+              <img alt='img' src={imagePath} style={photoStyle} />
+            </div>
+          }
         </div>
       );
     })
@@ -199,12 +216,8 @@ class Photos extends React.Component {
   };
 }
 
-Photos.contextTypes = {
-  'toggleModal': PropTypes.func
-};
-
 Photos.propTypes = {
-  'media': PropTypes.array
+  media: PropTypes.array
 };
 
 Photos.displayName = 'Photos';
