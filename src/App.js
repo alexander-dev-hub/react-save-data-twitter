@@ -12,7 +12,7 @@ class App extends Component {
   state = {
     saveDataEnabled: false,
     manualSaveDataEnabled: false,
-    imagePathCriteria: ''
+    imagePathCriteria: 'heavy'
   };
 
   toggleSaveDataHandler = event => {
@@ -44,7 +44,7 @@ class App extends Component {
 
   componentDidMount() {
     const { manualSaveDataEnabled, saveDataEnabled } = this.state;
-    if (!manualSaveDataEnabled)
+    if (!manualSaveDataEnabled && saveDataEnabled)
       this.getDataHandler(saveDataEnabled);
   }
 
@@ -58,14 +58,14 @@ class App extends Component {
   render() {
     const { manualSaveDataEnabled, saveDataEnabled, imagePathCriteria } = this.state;
     return (
-      <div className='TweetPage' style={{'margin': '0 auto'}}>
+      <div className='TweetPage'>
         <Nav 
           disabled={!manualSaveDataEnabled}
           toggled={saveDataEnabled}
           toggleHandler={this.toggleSaveDataHandler}
           checked={manualSaveDataEnabled}
           checkHandler={this.enableClientSaveDataHandler}/>
-        <div className='tweet-stream' style={{'width': '100%'}}>
+        <div className='tweet-stream'>
           {tweets.map((tweet, ith) => (
             <Tweet autoPlay={true} data={tweet} key={ith} linkProps={linkProps} imagePathCriteria={`assets/images/${imagePathCriteria}/${ith+1}.jpg`} />
           ))}
