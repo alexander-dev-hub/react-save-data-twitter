@@ -1,17 +1,19 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import styles from './styles';
 import {cloneDeep} from './utils';
 
-class Photos extends Component {
+class Photos extends React.Component {
   onClick (idx) {
     this.context.toggleModal(idx);
   };
 
   render () {
-    const {media, imagePathCriteria} = this.props;
+    // MEMO: tweak
+    let {media, imagePath} = this.props;
+
     let mediaElements = [], mediaStyle = cloneDeep(styles.AdaptiveMedia);
     if (media.length === 2) mediaStyle.height = '253px';
     if (media.length === 3) mediaStyle.height = '337px';
@@ -23,6 +25,7 @@ class Photos extends Component {
       let containStyle = {'width': '100%', 'position': 'relative', 'overflow': 'hidden'};
       let photoStyle = {'width': '100%', 'position': 'relative', 'verticalAlign': 'bottom'};
       let mediaHeight = m.sizes.large.h, mediaWidth = m.sizes.large.w;
+
       /*
        * format single photo
        */
@@ -34,13 +37,16 @@ class Photos extends Component {
           const ratio = (100 / mediaWidth) * 508;
           mediaHeight = mediaHeight * (ratio / 100);
         }
+
         // check if image is taller than maxHeight, if so
         // center it with a negative top value
         const maxHeight = parseInt(mediaStyle.maxHeight.replace('px', ''));
+
         if (mediaHeight > maxHeight) {
           photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
         }
       }
+
       /*
        * format two photos
        */
@@ -56,6 +62,7 @@ class Photos extends Component {
 
         const ratio = (100 / mediaWidth) * (508 /2);
         mediaHeight = mediaHeight * (ratio / 100);
+
         if (mediaHeight > maxHeight) {
           photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
           photoStyle.width = '100%';
@@ -66,6 +73,7 @@ class Photos extends Component {
           photoStyle.left = `${((508 / 2) - mediaWidth) / 2}px`;
         }
       }
+
       /*
        * format three photos
        */
@@ -83,6 +91,7 @@ class Photos extends Component {
 
           const newRatio = (100 / m.sizes.medium.w) * firstWrapWidth;
           mediaHeight = mediaHeight * (newRatio / 100);
+
           if (mediaHeight > maxHeight) {
             photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
           }
@@ -98,6 +107,7 @@ class Photos extends Component {
           mediaWidth = m.sizes.medium.w;
           const maxHeight = 337 / 2;
           const maxWidth = 508 * 1/3;
+
           const ratio = (100 / mediaWidth) * maxWidth;
           mediaHeight = mediaHeight * (ratio / 100);
 
@@ -110,12 +120,14 @@ class Photos extends Component {
             mediaWidth = mediaWidth * (newRatio / 100);
             photoStyle.left = `${(maxWidth - mediaWidth) / 2}px`;
           }
+
           containStyle.float = 'left';
           containStyle.marginBottom = '1px';
           containStyle.height = `calc(100% / 2 - 1px/2)`;
           containStyle.width = `calc(100% / 3 - 1px)`;
         }
       }
+
       /*
        * format four photos
        */
@@ -127,11 +139,14 @@ class Photos extends Component {
           containStyle.float = 'left';
           const firstWrapWidth = 508 * 0.75;
           const maxHeight = 380;
+
           const ratio = (100 / mediaHeight) * 380;
           mediaWidth = mediaWidth * (ratio / 100);
 
           const newRatio = (100 / m.sizes.medium.w) * firstWrapWidth;
           mediaHeight = mediaHeight * (newRatio / 100);
+
+
           if (mediaHeight > maxHeight) {
             photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
           }
@@ -160,6 +175,7 @@ class Photos extends Component {
             mediaWidth = mediaWidth * (newRatio / 100);
             photoStyle.left = `${(maxWidth - mediaWidth) / 2}px`;
           }
+
           containStyle.height = 'calc(100% / 3 - 2px/3)';
           containStyle.marginBottom = '1px';
           containStyle.float = 'left';
@@ -167,14 +183,16 @@ class Photos extends Component {
         }
       }
       mediaElements.push(
-        <div onClick={this.onClick.bind(this, i)} className='AdaptiveMedia-photoContainer' style={containStyle} key={i}>
-          <img alt='' src={imagePathCriteria} style={photoStyle} />
+        <div onClick={this.onClick.bind(this, i)} className="AdaptiveMedia-photoContainer" style={containStyle} key={i}>
+          {/* MEMO: tweak */}
+          <img alt="" src={imagePath} style={photoStyle} />
         </div>
       );
     })
     // end media loop
+
     return (
-      <div className='AdaptiveMedia' style={mediaStyle}>
+      <div className="AdaptiveMedia" style={mediaStyle}>
         {mediaElements}
       </div>
     );

@@ -1,12 +1,12 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import twemoji from 'twemoji';
 import twitterText from 'twitter-text';
 
 import styles from './styles';
 
-class Text extends Component {
+class Text extends React.Component {
   render () {
     let {data} = this.props;
     let {text, entities, extended_entities} = data;

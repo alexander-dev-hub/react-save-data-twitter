@@ -60,14 +60,14 @@ class App extends Component {
           enableClientSaveData={this.enableClientSaveDataHandler} />
         <div className='tweet-stream'>
           { tweets.map((tweet, index) => {
-            const assetPath = `assets/images/${saveData === SAVE_DATA_MODE.OFF ? IMAGE_TYPE.HEAVY : IMAGE_TYPE.LIGHT}/${index + 1}.jpg`;
+            const imagePath = `/assets/images/${saveData === SAVE_DATA_MODE.OFF ? IMAGE_TYPE.HEAVY : IMAGE_TYPE.LIGHT}/${index + 1}.jpg`;
             return (
               <Tweet
-                key={assetPath}
+                key={imagePath}
                 linkProps={linkProps}
                 autoPlay={true} // TODO: autoplay specification implementation for videos
                 data={tweet}
-                imagePathCriteria={assetPath} />
+                imagePath={imagePath} />
             );
           }) }
         </div>
