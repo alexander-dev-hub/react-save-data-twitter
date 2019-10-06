@@ -1,20 +1,13 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 
-import '../../App.css';
+import './Checkbox.css';
 
-class Checkbox extends Component {
-  render () {
-    const { ...rest } = this.props;
-    return (
-      <div className='switch-with-label'>
-        <label>
-          <input type='checkbox' {...rest} />
-          Testing Save-Data on Client 
-        </label>
-      </div>
-    );
-  };
-}
+const Checkbox = ({ label, ...rest }) => (
+  <div className='checkbox'>
+    <input type='checkbox' {...rest} />
+    <label>{label}</label>
+  </div>
+);
 
 export default Checkbox;

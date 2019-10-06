@@ -18,8 +18,8 @@
     "twitter-text": "^3.0.0"
   },
   "scripts": {
-    "client-dev": "react-scripts start",
-    "start": "node server.js",
+    "start": "react-scripts start",
+    "server": "node server.js",
     "server-dev": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",

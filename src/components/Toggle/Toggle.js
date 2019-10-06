@@ -1,21 +1,14 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import Toggle from 'react-toggle';
 
-import '../../App.css';
+import './Toggle.css';
 
-class ToggleSwitch extends Component {
-  render () {
-    const { ...rest } = this.props;
-    return (
-      <div className='switch-with-label'>
-        <label>
-          Save Data
-        </label>
-        <Toggle { ...rest } />
-      </div>
-    );
-  };
-}
+const ToggleSwitch = ({ label, ...rest }) => (
+  <div className='toggle'>
+    <label>{label}</label>
+    <Toggle {...rest} />
+  </div>
+);
 
 export default ToggleSwitch;

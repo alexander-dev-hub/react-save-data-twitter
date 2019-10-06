@@ -13,14 +13,23 @@ app.get('/ping', (req, res) => {
 });
 
 app.get('/save-data', (req, res) => {
-  const saveData = req.headers['save-data'];
-  let imagePathCriteria;
-  if( saveData === 'on')
-    imagePathCriteria = 'light';
-  else
-    imagePathCriteria = 'heavy';
+  const SAVE_DATA_MODE = {
+    ON: 'on',
+    OFF: 'off'
+  };
 
-  res.status(200).json({imagePathCriteria});
+  const requestSaveData = req.headers['save-data'];
+  let saveData;
+  if(requestSaveData === SAVE_DATA_MODE.ON) {
+    saveData = SAVE_DATA_MODE.ON;
+  } else {
+    saveData = SAVE_DATA_MODE.OFF;
+  }
+
+  console.log('[server save-data route] requestSaveData => ', requestSaveData);
+  console.log('[server save-data route] saveData => ', saveData);
+
+  res.status(200).json({saveData});
 });
 
 app.get('*', (req, res) => {
@@ -30,6 +39,6 @@ app.get('*', (req, res) => {
 app.listen(
   process.env.PORT || 5000,
   () => {
-    console.log(`Frontend start on http://localhost:3000`);
+    console.log(`serving on http://localhost:5000`);
   }
 );
