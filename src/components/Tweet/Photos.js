@@ -1,12 +1,13 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './styles';
-import {cloneDeep} from './utils';
+import { cloneDeep } from './utils';
 import { IMAGE_TYPE } from '../../config';
+import './Photos.css';
+import styles from './styles';
 
-class Photos extends React.Component {
+class Photos extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,11 +22,11 @@ class Photos extends React.Component {
   };
 
   render () {
-    // MEMO: tweak
-    let { media } = this.props;
+    const { media } = this.props;
     const { imagePath } = this.state;
 
-    let mediaElements = [], mediaStyle = cloneDeep(styles.AdaptiveMedia);
+    let mediaElements = [];
+    let mediaStyle = cloneDeep(styles.AdaptiveMedia);
     if (media.length === 2) mediaStyle.height = '253px';
     if (media.length === 3) mediaStyle.height = '337px';
     if (media.length === 4) mediaStyle.height = '380px';
@@ -186,23 +187,24 @@ class Photos extends React.Component {
         }
       }
       mediaElements.push(
-        <div className="AdaptiveMedia-photoContainer" style={containStyle} key={i}>
-          {imagePath.includes(IMAGE_TYPE.LIGHT) ?
-            <div className="photo">
-              <img alt='img' src={imagePath} style={photoStyle} />
-              <button className="btn"onClick={this.loadImageHandler}>Load Image</button>
-            </div> :
-            <div className="photo">
-              <img alt='img' src={imagePath} style={photoStyle} />
+        <div className='AdaptiveMedia-photoContainer' style={containStyle} key={i}>
+          { imagePath.includes(IMAGE_TYPE.LIGHT) ? (
+            <div className='adaptive-photo'>
+              <img alt='tweet' src={imagePath} style={photoStyle} />
+              <button className='load-image'onClick={this.loadImageHandler}>Load Image</button>
             </div>
-          }
+          ) : (
+            <div className='adaptive-photo'>
+              <img alt='tweet' src={imagePath} style={photoStyle} />
+            </div>
+          ) }
         </div>
       );
-    })
+    });
     // end media loop
 
     return (
-      <div className="AdaptiveMedia" style={mediaStyle}>
+      <div className='AdaptiveMedia' style={mediaStyle}>
         {mediaElements}
       </div>
     );
