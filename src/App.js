@@ -1,5 +1,6 @@
 
 import React, { Component, Fragment } from 'react';
+import { FixedSizeList as List } from "react-window";
 
 import Tweet from './components/Tweet/Tweet';
 import Navbar from './components/Navbar/Navbar';
@@ -46,11 +47,22 @@ class App extends Component {
 
   render() {
     const { clientSaveDataEnabled, saveData } = this.state;
+    const Row = ({ index, style }) => (
+      <div className='ListItem' style={style}>
+        <div className='tweet-stream'>
+          <Tweet
+            key={`/assets/images/${saveData === SAVE_DATA_MODE.OFF ? IMAGE_TYPE.HEAVY : IMAGE_TYPE.LIGHT}/${index + 1}.jpg`}
+            linkProps={linkProps}
+            autoPlay={true} // TODO: autoplay specification implementation for videos
+            data={tweets[index]}
+            imagePath={`/assets/images/${saveData === SAVE_DATA_MODE.OFF ? IMAGE_TYPE.HEAVY : IMAGE_TYPE.LIGHT}/${index + 1}.jpg`} />
+        </div>
+      </div>
+    );
 
     if (!saveData) {
       return <Fragment>Loading...</Fragment>;
     }
-
     return (
       <div className='tweet-page'>
         <Navbar
@@ -58,19 +70,14 @@ class App extends Component {
           clientSaveDataEnabled={clientSaveDataEnabled}
           toggleClientSaveData={this.toggleClientSaveDataHandler}
           enableClientSaveData={this.enableClientSaveDataHandler} />
-        <div className='tweet-stream'>
-          { tweets.map((tweet, index) => {
-            const imagePath = `/assets/images/${saveData === SAVE_DATA_MODE.OFF ? IMAGE_TYPE.HEAVY : IMAGE_TYPE.LIGHT}/${index + 1}.jpg`;
-            return (
-              <Tweet
-                key={imagePath}
-                linkProps={linkProps}
-                autoPlay={true} // TODO: autoplay specification implementation for videos
-                data={tweet}
-                imagePath={imagePath} />
-            );
-          }) }
-        </div>
+          <List
+            className='List'
+            height={1500}
+            itemCount={tweets.length}
+            itemSize={520}
+            width='100%'>
+            {Row}
+          </List>
       </div>
     );
   }
