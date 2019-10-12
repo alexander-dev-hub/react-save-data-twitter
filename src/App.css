@@ -3,12 +3,14 @@
 }
 
 .tweet-page {
+  height: calc(100vh - 51px);
   max-width: 600px;
   margin: 0 auto;
 }
 
 .tweet-stream {
   width: 100%;
+  height: unset !important;
   border: 1px solid rgb(225, 232, 237);
   margin-top: 8px;
 }

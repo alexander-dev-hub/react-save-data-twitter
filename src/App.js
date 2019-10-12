@@ -1,5 +1,7 @@
 
 import React, { Component, Fragment } from 'react';
+import { FixedSizeList as List } from 'react-window';
+import AutoSizer from 'react-virtualized-auto-sizer';
 
 import Tweet from './components/Tweet/Tweet';
 import Navbar from './components/Navbar/Navbar';
@@ -50,6 +52,20 @@ class App extends Component {
     if (!saveData) {
       return <Fragment>Loading...</Fragment>;
     }
+    
+    const ListTweet = ({ index, style }) => {
+      const imagePath = `/assets/images/${saveData === SAVE_DATA_MODE.OFF ? IMAGE_TYPE.HEAVY : IMAGE_TYPE.LIGHT}/${index + 1}.jpg`;
+      return (
+        <div className='tweet-stream' style={style}>
+          <Tweet
+            key={imagePath}
+            linkProps={linkProps}
+            autoPlay={true} // TODO: autoplay specification implementation for videos
+            data={tweets[index]}
+            imagePath={imagePath} />
+        </div>
+      );
+    };
 
     return (
       <div className='tweet-page'>
@@ -58,19 +74,17 @@ class App extends Component {
           clientSaveDataEnabled={clientSaveDataEnabled}
           toggleClientSaveData={this.toggleClientSaveDataHandler}
           enableClientSaveData={this.enableClientSaveDataHandler} />
-        <div className='tweet-stream'>
-          { tweets.map((tweet, index) => {
-            const imagePath = `/assets/images/${saveData === SAVE_DATA_MODE.OFF ? IMAGE_TYPE.HEAVY : IMAGE_TYPE.LIGHT}/${index + 1}.jpg`;
-            return (
-              <Tweet
-                key={imagePath}
-                linkProps={linkProps}
-                autoPlay={true} // TODO: autoplay specification implementation for videos
-                data={tweet}
-                imagePath={imagePath} />
-            );
-          }) }
-        </div>
+        <AutoSizer>
+          { ({ height, width }) => (
+            <List
+              width={width}
+              height={height}
+              itemCount={tweets.length}
+              itemSize={520}>
+              {ListTweet}
+            </List>
+          ) }
+        </AutoSizer>
       </div>
     );
   }
